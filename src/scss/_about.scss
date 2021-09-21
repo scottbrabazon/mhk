@@ -1,0 +1,62 @@
+.about-us {
+	.image {
+		width: 100%;
+		img {
+			width: 100%;
+		}
+	}
+	.content {
+		display: flex;
+		align-items: center;
+	}
+	.content div {
+		padding: 4rem 2rem 2rem;
+	}
+	.sub-header {
+	    color: #d4b254;
+	}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+	.about-us {
+		display: flex;
+		align-items: stretch;
+		.image {
+			width: 50%;
+			img {
+				object-fit: cover;
+				height: 100%;
+			}
+		}
+		.content {
+			order: 1;
+			width: 50%;
+			text-align: left;
+		}
+		.content div {
+			padding: 4rem 10% 0 4.5rem;
+		}
+		.carousel.carousel-slider .control-arrow {
+			background-color: red !important;
+		}
+		.carousel .control-next.control-arrow {
+			
+		}
+		.carousel .control-prev.control-arrow {
+			
+		}
+	}
+}
+
+@media only screen and (min-width: 900px) {
+
+	.about-us {
+		.content div {
+			padding: 4rem 33% 0 4.5rem;
+		}
+	}
+
+
+}

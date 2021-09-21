@@ -1,0 +1,14 @@
+@use 'sass:math';
+
+@function calculateRem($size) {
+	$remSize: math.div($size, 16px);
+	@return #{$remSize}rem;
+}
+
+@mixin fontSize($size) {
+	font-size: calculateRem($size);
+}
+
+@mixin lineHeight($size) {
+	line-height: calculateRem($size);
+}

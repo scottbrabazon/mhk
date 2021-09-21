@@ -1,0 +1,40 @@
+.container {
+	max-width: 2000px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	position: relative;
+}
+
+.desktop {
+	display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	.desktop {
+		display: inline-block;
+	}
+
+	.mobile {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+.faq {
+	background-color: #eee;
+	padding: 4rem 0 2rem;
+	text-align: center;
+	.sub-header {
+	    color: #d4b254;
+	}
+	.faq-slide {
+		width: 80%;
+		max-width: 700px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	.faq {
+		padding: 7rem 0 3rem;
+	}
+
+	.faq div {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	.faq li {
+		max-width: 600px !important;
+		margin: 0 auto;
+	}
+
+}

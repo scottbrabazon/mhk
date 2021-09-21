@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
+    @include fontSize(52px);
+    @include lineHeight(58px);
+    margin: 0 0 1.5rem;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #222;
+    @include fontSize(42px);
+    @include lineHeight(52px);
+    margin: 0.2rem 0 2rem;
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #222;
+    @include fontSize(32px);
+    @include lineHeight(42px);
+    margin: 0 0 1.5rem;
+}
+
+h4 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #222;
+    @include fontSize(24px);
+    margin: 0 0 2rem;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #777;
+    @include fontSize(15px);
+    @include lineHeight(28px);
+    margin: 0 0 2.5rem;
+}
+
+blockquote {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 1rem;
+    color: #777;
+    @include fontSize(18px);
+    @include lineHeight(32px);
+}
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    @include fontSize(15px);
+    margin: 0 0 5em;
+}
+
+.sub-header {
+    font-family: 'Roboto', sans-serif;
+    @include fontSize(13px);
+    @include lineHeight(20px);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0 0 0.5rem;
+    color: #fff;
+}
+
+.cta {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #d4b254;
+    padding: 1.40625rem 3.5rem;
+    color: #fff;
+    letter-spacing: 3px;
+    border-radius: 6rem;
+    margin: 0 0 3.5rem;
+}
+
+.cta:hover {
+    background-color: #c8a74b;
+    animation: fadeInHover 0.5s;
+    -webkit-animation: fadeInHover 0.5s;
+    -moz-animation: fadeInHover 0.5s;
+    -o-animation: fadeInHover 0.5s;
+    -ms-animation: fadeInHover 0.5s;
+}
+
+@keyframes fadeInHover {
+  0% {background-color: #d4b254;}
+  100% {background-color: #c8a74b;}
+}
+
+@-moz-keyframes fadeInHover {
+  0% {background-color: #d4b254;}
+  100% {background-color: #c8a74b;}
+}
+
+@-webkit-keyframes fadeInHover {
+  0% {background-color: #d4b254;}
+  100% {background-color: #c8a74b;}
+}
+
+@-o-keyframes fadeInHover {
+  0% {background-color: #d4b254;}
+  100% {background-color: #c8a74b;}
+}
+
+@-ms-keyframes fadeInHover {
+  0% {background-color: #d4b254;}
+  100% {background-color: #c8a74b;}
+}
+
+
+
+
+
+
+
+
